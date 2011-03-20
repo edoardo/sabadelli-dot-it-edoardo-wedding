@@ -1,0 +1,278 @@
+/*  Less Framework 4
+    http://lessframework.com
+    by Joni Korpi
+    License: http://creativecommons.org/licenses/MIT/   */
+
+/*  Resets  */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+    display: block;
+}
+
+a img {border: 0;}
+
+/*  Typography presets */
+.gigantic {
+    font-size: 110px;
+    line-height: 120px;
+    letter-spacing: -2px;
+}
+
+.huge, h1 {
+    font-size: 68px;
+    line-height: 72px;
+    letter-spacing: -1px;
+}
+
+.large, h2, section h1 {
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.bigger, h3, article h2 {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.big, h4 {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+body {
+    font: 16px/24px Georgia, serif;
+}
+
+.small, small {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+/* Selection colours (easy to forget) */
+::selection         {background: rgb(255,255,158);}
+::-moz-selection    {background: rgb(255,255,158);}
+img::selection      {background: transparent;}
+img::-moz-selection {background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
+
+/* colours
+ chocolate: #483018
+ pink: #FF6E9A
+ purple: #572745
+ grey: #
+*/
+
+/*      Default Layout: 992px. 
+        Gutters: 24px.
+        Outer margins: 48px.
+        Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+body {
+    padding: 54px 0 66px;
+    /*background: #ffffff;*/
+    background: transparent url('/edoardo/wedding/css/media/483018-pattern.png') repeat;
+    color: rgb(60,60,60);
+    -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+
+div.pink-paper {
+    width: 896px;
+    margin: auto;
+    background-color: #ff6e9a;
+    padding: 60px;
+    box-shadow: 0 0 10px 4px #483018;
+    -moz-box-shadow: 0 0 10px 4px #483018;
+    -webkit-box-shadow: 0 0 10px 4px #483018;
+}
+
+div.white-paper {
+    background-color: #fbfbfb;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 10px 4px #CC587B;
+    -moz-box-shadow: 0 0 10px 4px #CC587B;
+    -webkit-box-shadow: 0 0 10px 4px #CC587B;
+}
+
+header, section, footer {
+    padding: 0 90px;
+}
+
+header {
+    padding: 50px 0;
+    text-align: center;
+    color: #572745;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    width: 5em;
+    margin: 20px auto;
+    font: 98px/92px 'Splendid ES', 'Dancing Script', 'England Hand DB', 'Brock Script', Palatino, serif;
+    letter-spacing: 0;
+}
+
+header h2 {
+    font: 26px Bebas, 'BigNoodle Titling', Palatino, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+header h3 {
+    font: 18px Bebas, 'BigNoodle Titling', Palatino, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+section {
+    padding-bottom: 30px;
+/*    border: 1px solid; */
+/*    background: transparent url(/edoardo/wedding/css/media/divider.gif) center top no-repeat; */
+}
+
+section > h1 {
+    font-family: 'Splendid ES', Palatino, serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #572745;
+    padding-top: 24px;
+    border-top: 1px solid #c9c9c9;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+article {
+    margin: 20px 0;
+}
+
+article > p:first-child {
+    text-indent: 2em;
+}
+
+article h2 {
+    font: 18px Bebas, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-bottom: 6px;
+    color: #404040;
+}
+
+article iframe {
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    border: 1px solid #c9c9c9;
+}
+
+.photo {
+    box-shadow: 0 0 10px 4px #c0c0c0;
+    -moz-box-shadow: 0 0 10px 4px #c0c0c0;
+    -webkit-box-shadow: 0 0 10px 4px #c0c0c0;
+}
+
+article#hcard-Margaux-Claire-Lamont img {
+    display: block;
+    clear: both;
+    padding: 6px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 48px 30px 48px;
+}
+
+footer small {
+    border-top: 1px solid #572745;
+}
+
+a {
+    color: #572745;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*      Tablet Layout: 768px.
+        Gutters: 24px.
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    body {
+        padding: 48px 0 60px;
+    }
+
+    header, section, footer {
+        width: 712px;
+        padding: 0 28px;
+    }
+
+}
+
+/*      Wide Mobile Layout: 480px.
+        Gutters: 24px.
+        Outer margins: 22px.
+        Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    body {
+        padding: 36px 0 48px;
+    }
+
+    header, section, footer {
+        width: 436px;
+        padding: 0 22px;
+    }   
+
+}
+
+/*      Mobile Layout: 320px.
+        Gutters: 24px.
+        Outer margins: 34px.
+        Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+    
+    body {
+        padding: 48px 0 60px;
+    }
+
+    header, section, footer {
+        width: 252px;
+        padding: 0 34px;
+    }   
+}

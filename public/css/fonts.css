@@ -1,0 +1,50 @@
+/*
+@font-face {
+  font-family: 'Chopin Script';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Chopin Script'), url('/edoardo/wedding/css/fonts/ChopinScript.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Brock Script';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Brock Script'), url('http://beta.sabadelli.it/edoardo/css/fonts/BrockScript.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'England Hand DB';
+  font-style: normal;
+  font-weight: normal;
+  src: local('England Hand DB'), url('http://beta.sabadelli.it/edoardo/css/fonts/EnglandHandDB.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Scriptina';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Scriptina'), url('http://beta.sabadelli.it/edoardo/css/fonts/Scriptina.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BigNoodle Titling';
+  font-style: normal;
+  font-weight: normal;
+  src: local('BigNoodle Titling'), url('http://beta.sabadelli.it/edoardo/css/fonts/BigNoodleTitling.ttf') format('truetype');
+}
+*/
+@font-face {
+  font-family: 'Splendid ES';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Splendid ES'), url('/edoardo/wedding/css/fonts/SplendidES.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bebas'), url('/edoardo/wedding/css/fonts/Bebas.ttf') format('truetype');
+}
+

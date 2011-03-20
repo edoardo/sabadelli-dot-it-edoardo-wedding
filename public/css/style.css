@@ -90,6 +90,11 @@ body {
     -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
 div.pink-paper {
     width: 896px;
     margin: auto;
@@ -146,8 +151,6 @@ header h3 {
 
 section {
     padding-bottom: 30px;
-/*    border: 1px solid; */
-/*    background: transparent url(/edoardo/wedding/css/media/divider.gif) center top no-repeat; */
 }
 
 section > h1 {
@@ -162,7 +165,7 @@ section > h1 {
 }
 
 article {
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 article > p:first-child {
@@ -174,6 +177,7 @@ article h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 3px;
+    margin-top: 20px;
     margin-bottom: 6px;
     color: #404040;
 }
@@ -185,26 +189,10 @@ article iframe {
     border: 1px solid #c9c9c9;
 }
 
-.photo {
-    box-shadow: 0 0 10px 4px #c0c0c0;
-    -moz-box-shadow: 0 0 10px 4px #c0c0c0;
-    -webkit-box-shadow: 0 0 10px 4px #c0c0c0;
-}
-
-article#hcard-Margaux-Claire-Lamont img {
-    display: block;
-    clear: both;
-    padding: 6px;
-}
-
 footer {
     text-align: center;
     font-weight: bold;
-    padding: 50px 48px 30px 48px;
-}
-
-footer small {
-    border-top: 1px solid #572745;
+    padding: 30px 48px;
 }
 
 a {

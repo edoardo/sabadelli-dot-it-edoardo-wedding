@@ -4,7 +4,7 @@
           <h1>[% h.l('Wedding') %]</h1>
        
           <article id="ceremony" class="vevent">
-            <h2 class="sumid="margaux-qcode"amary">[% h.l('Ceremony') %]</h2>
+            <h2 class="summary">[% h.l('Ceremony') %]</h2>
             <p>The ceremony will take place in <span class="location"><a href="http://tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting at <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.</p>
           </article>
 
@@ -20,7 +20,7 @@
             <p class="geo">If you're driving and have a <abbr title="Global Positioning System">GPS</abbr>, you can use these coordinates to reach the location: <span class="latitude" title="-033.9644444">S 33° 57' 52"</span> - <span class="longitude" title="022.3736111">E 22° 22' 25"</span>.</p>
             <p>There's parking space on the premises.</p>
 
-            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=213295614037161422801.00049c80d5f8ad3f2d350&amp;ll=-33.978955,22.412109&amp;spn=0.099644,0.145912&amp;z=12&amp;output=embed"></iframe>
+            <iframe width="425" height="350" src="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=213295614037161422801.00049c80d5f8ad3f2d350&amp;ll=-33.978955,22.412109&amp;spn=0.099644,0.145912&amp;z=12&amp;output=embed"></iframe>
             <small><a href="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=213295614037161422801.00049c80d5f8ad3f2d350&amp;ll=-33.978955,22.412109&amp;spn=0.099644,0.145912&amp;z=12&amp;source=embed">View in a larger map</a></small>.
           </article>
         </section>
@@ -72,7 +72,7 @@
           <!--<img src="/edoardo/wedding/jpg/margaux.jpg" class="photo" />-->
           <a class="email" href="mailto:&#109;&#97;&#114;&#103;&#97;&#117;&#120;&#108;&#97;&#109;&#111;&#110;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#109;&#97;&#114;&#103;&#97;&#117;&#120;&#108;&#97;&#109;&#111;&#110;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
           <div class="tel"><span class="type">Cell</span>: &#43;&#52;&#55;&#32;&#57;&#54;&#32;&#56;&#51;&#32;&#57;&#50;&#32;&#49;&#55;</div>
-          <a href="#vcard">Download vCard</a>
+          <a href="/edoardo/wedding/vcf/margaux.vcf" title="Download the business card">Download vCard</a><br />
           <a href="/edoardo/wedding/png/margaux-datamatrix.png" id="margaux-qcode" title="Scan the barcode with your phone's camera">Add to your mobile phone</a>
           <!--<img src="/edoardo/wedding/png/margaux-datamatrix.png" alt="Margaux's vCard barcode" title="Save the contact details on your phone by scanning the barcode" />-->
          </article>
@@ -83,7 +83,7 @@
           </h2>
           <a class="email" href="mailto:&#101;&#100;&#111;&#97;&#114;&#100;&#111;&#64;&#115;&#97;&#98;&#97;&#100;&#101;&#108;&#108;&#105;&#46;&#105;&#116;">&#101;&#100;&#111;&#97;&#114;&#100;&#111;&#64;&#115;&#97;&#98;&#97;&#100;&#101;&#108;&#108;&#105;&#46;&#105;&#116;</a>
           <div class="tel"><span class="type">Cell</span>: &#43;&#52;&#55;&#32;&#52;&#49;&#32;&#48;&#49;&#32;&#56;&#57;&#32;&#53;&#57;</div>
-          <a href="#vcard">Download vCard</a>
+          <a href="/edoardo/wedding/vcf/edoardo.vcf" title="Download the business card">Download vCard</a><br />
           <a href="/edoardo/wedding/png/edoardo-datamatrix.png" id="edoardo-qcode" title="Scan the barcode with your phone's camera">Add to your mobile phone</a>
           <!-- DataMatrix barcode -->
           <!--<img src="/edoardo/wedding/png/edoardo-datamatrix.png" alt="Edoardo's vCard barcode" title="Save the contact details on your phone by scanning the barcode" />-->

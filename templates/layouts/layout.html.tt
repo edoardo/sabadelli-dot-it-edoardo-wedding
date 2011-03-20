@@ -9,7 +9,6 @@
     <![endif]-->
 
     <link rel="stylesheet" media="all" href="/edoardo/wedding/css/fonts.css" />
-
     <link rel="stylesheet" media="all" href="/edoardo/wedding/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
@@ -26,26 +25,12 @@
         <header>
 
           <hgroup class="vevent">
-            <span class="summary">
-           <!-- <h3>[% h.l('The wedding of') %]</h3> -->
-            <h1>[% h.l('Margaux and Edoardo') %]</h1>
-            </span>
+            <a href="/edoardo/wedding">
+              <h1 class="summary">[% h.l('Margaux and Edoardo') %]</h1>
+            </a>
             <h2><time datetime="2011-09-30" class="dtstart" title="2011-09-30">[% h.l('30 September 2011') %]</time></h2>
           </hgroup>
-    <!--
-          <nav>
-            <ul>
-    -->
-              <!--<li><a href="#story">[% h.l('Story') %]</a></li>-->
-              <!--<li><a href="#ceremony">[% h.l('Ceremony') %]</a></li>
-              <li><a href="#reception">[% h.l('Reception') %]</a></li>-->
-    <!--
-              <li><a href="#venue">[% h.l('Venue') %]</a></li>
-              <li><a href="#accommodation">[% h.l('Accommodation') %]</a></li>
-              <li><a href="#contacts">[% h.l('Contact us') %]</a></li>
-            </ul>
-          </nav>
-    -->
+
         </header>
 
 [% content %]
@@ -53,8 +38,7 @@
         <footer>
 
           <small>
-            <p><a href="#margaux">Margaux</a> &#9829; <a href="#edoardo">Edoardo</a><br />MMXI</p>
-<!--            <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a></p> -->
+            <a href="/edoardo/wedding/#hcard-Margaux-Claire-Lamont">Margaux</a> &#9829; <a href="/edoardo/wedding/#hcard-Edoardo-Romeo-Sabadelli">Edoardo</a><br />&copy; MMXI
           </small>
 
         </footer>

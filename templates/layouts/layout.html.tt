@@ -10,6 +10,10 @@
 
     <link rel="stylesheet" media="all" href="/edoardo/wedding/css/fonts.css" />
     <link rel="stylesheet" media="all" href="/edoardo/wedding/css/style.css" />
+    [%- FOREACH file IN css %]
+    <link rel="stylesheet" media="screen" href="/edoardo/wedding/css/[% file %]" />
+    [%- END %]
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
 
@@ -43,6 +47,11 @@
 
       </div>
     </div>
+
+    [%- FOREACH file IN js %]
+    <script src="/edoardo/wedding/js/[% file %]"></script>
+    [%- END %]
+
   </body>
   
 </html>

@@ -41,7 +41,7 @@ a img {border: 0;}
     line-height: 48px;
 }
 
-.bigger, h3, article h2 {
+.bigger, h3 {
     font-size: 26px;
     line-height: 36px;
 }
@@ -69,9 +69,10 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 
 /* colours
  chocolate: #483018
- pink: #FF6E9A
- purple: #572745
- grey: #
+ pink:      #ff6e9a
+ paper:     #fbfbfb
+ purple:    #572745
+ grey:      #c9c9c9
 */
 
 /*      Default Layout: 992px. 
@@ -84,7 +85,6 @@ px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
     padding: 54px 0 66px;
-    /*background: #ffffff;*/
     background: transparent url('/edoardo/wedding/css/media/483018-pattern.png') repeat;
     color: rgb(60,60,60);
     -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
@@ -109,9 +109,9 @@ div.white-paper {
     background-color: #fbfbfb;
     margin: 0;
     padding: 0;
-    box-shadow: 0 0 10px 4px #CC587B;
-    -moz-box-shadow: 0 0 10px 4px #CC587B;
-    -webkit-box-shadow: 0 0 10px 4px #CC587B;
+    box-shadow: 0 0 10px 4px #cc587b;
+    -moz-box-shadow: 0 0 10px 4px #cc587b;
+    -webkit-box-shadow: 0 0 10px 4px #cc587b;
 }
 
 header, section, footer {
@@ -131,19 +131,19 @@ header a {
 header h1 {
     width: 5em;
     margin: 20px auto;
-    font: 98px/92px 'Splendid ES', 'Dancing Script', 'England Hand DB', 'Brock Script', Palatino, serif;
+    font: 98px/98px 'Splendid ES', Palatino, Georgia, serif;
     letter-spacing: 0;
 }
 
 header h2 {
-    font: 26px Bebas, 'BigNoodle Titling', Palatino, Verdana, sans-serif;
+    font: 26px Bebas, Verdana, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     word-spacing: 3px;
 }
 
 header h3 {
-    font: 18px Bebas, 'BigNoodle Titling', Palatino, Verdana, sans-serif;
+    font: 18px Bebas, Verdana, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 3px;
@@ -154,7 +154,7 @@ section {
 }
 
 section > h1 {
-    font-family: 'Splendid ES', Palatino, serif;
+    font-family: 'Splendid ES', Palatino, Georgia, serif;
     font-weight: normal;
     letter-spacing: 0;
     color: #572745;
@@ -173,7 +173,7 @@ article > p:first-child {
 }
 
 article h2 {
-    font: 18px Bebas, sans-serif;
+    font: 18px Bebas, Verdana, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 3px;
@@ -192,7 +192,7 @@ article iframe {
 footer {
     text-align: center;
     font-weight: bold;
-    padding: 30px 48px;
+    padding: 30px 0;
 }
 
 a {
@@ -217,9 +217,44 @@ px      68    160    252    344    436    528    620    712    */
         padding: 48px 0 60px;
     }
 
-    header, section, footer {
+    div.pink-paper {
         width: 712px;
-        padding: 0 28px;
+        padding: 50px;
+    }
+
+    header, section, footer {
+        padding: 0 70px;
+    }
+
+    header {
+        padding: 30px 0;
+    }
+
+    header h1 {
+        font-size: 78px;
+        line-height: 78px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    section {
+        padding-bottom: 20px;
+    }
+
+    section > h1 {
+        font-size: 32px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    } 
+
+    article h2 {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 20px 0;
     }
 
 }
@@ -238,10 +273,51 @@ px      68    160    252    344    436    */
         padding: 36px 0 48px;
     }
 
-    header, section, footer {
+    div.pink-paper {
         width: 436px;
-        padding: 0 22px;
+        padding: 30px;
+    }
+
+    header, section, footer {
+        padding: 0 40px;
     }   
+
+    header {
+        padding: 20px 0;
+    }
+
+    header h1 {
+        font-size: 68px;
+        line-height: 68px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+
+    section {
+        padding-bottom: 10px;
+    }
+
+    section > h1 {
+        font-size: 28px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    } 
+
+    article h2 {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    /* hide datamatrix barcodes in mobile view */
+    #margaux-qcode,
+    #edoardo-qcode {
+        display: none;
+    }
 
 }
 
@@ -253,14 +329,58 @@ px      68    160    252    344    436    */
 cols    1     2      3
 px      68    160    252    */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 479px) {
     
     body {
         padding: 48px 0 60px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    div.pink-paper {
+        width: 252px;
+        padding: 10px;
     }
 
     header, section, footer {
-        width: 252px;
-        padding: 0 34px;
+        padding: 0 16px;
     }   
+
+    header {
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    header h2 {
+        font-size: 12px;
+    }
+
+    section {
+        padding-bottom: 4px;
+    }
+
+    section > h1 {
+        font-size: 24px;
+        padding-top: 4px;
+        margin-bottom: 1px;
+    } 
+
+    article h2 {
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    /* hide datamatrix barcodes in mobile view */
+    #margaux-qcode,
+    #edoardo-qcode {
+        display: none;
+    }
+
 }

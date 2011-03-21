@@ -74,6 +74,8 @@
         <section id="contacts">
          <h1>[% h.l('Contact us') %]</h1>
 
+         <p>For any request, suggestion, comment you can write us at <a href="mailto:&#119;&#101;&#100;&#100;&#105;&#110;&#103;&#64;&#115;&#97;&#98;&#97;&#100;&#101;&#108;&#108;&#105;&#46;&#105;&#116;">&#119;&#101;&#100;&#100;&#105;&#110;&#103;&#64;&#115;&#97;&#98;&#97;&#100;&#101;&#108;&#108;&#105;&#46;&#105;&#116;</a>.</p>
+
          <article id="hcard-Margaux-Claire-Lamont" class="vcard">
           <h2 class="fn n">
            <span class="given-name">Margaux</span> <span class="additional-name">Claire</span> <span class="family-name">Lamont</span>

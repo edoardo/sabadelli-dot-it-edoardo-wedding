@@ -1,14 +1,19 @@
-[% WRAPPER layouts/layout.html.tt
-   css = [
-     'jquery.lightbox-0.5.css'
-   ];
-   js = [
-     'lib/jquery-1.5.1.min.js',
-     'lib/jquery.lightbox-0.5.pack.js',
-     'site.js'
-   ];
-%]
-
+[%-
+    FILTER null;
+    h.languages(app.lang);
+    END;
+-%]
+[%-
+    WRAPPER layouts/layout.html.tt
+        css = [
+            'jquery.lightbox-0.5.css'
+        ];
+        js = [
+            'lib/jquery-1.5.1.min.js',
+            'lib/jquery.lightbox-0.5.pack.js',
+            'site.js'
+        ];
+-%]
         <section id="wedding">
           <h1>[% h.l('Wedding') %]</h1>
        
@@ -97,5 +102,4 @@
           <a href="/edoardo/wedding/png/edoardo-datamatrix.png" title="Scan the barcode with your phone's camera">Add to your mobile phone</a>
          </article>
         </section>
-
-[% END %]
+[%- END %]

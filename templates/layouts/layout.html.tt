@@ -22,7 +22,7 @@
     <link rel="profile" href="http://microformats.org/profile/hcalendar" />
   </head>
   
-  <body lang="en">
+  <body lang="[% app.lang || 'en' %]">
     <div class="pink-paper">
       <div class="white-paper">
 
@@ -38,6 +38,15 @@
 [% content %]
 
         <footer>
+          <small>
+            [%- IF app.lang == 'it' %]
+            <a href="?lang=en">English version</a>
+            [%- ELSE %]
+            <a href="?lang=it">Versione italiana</a>
+            [%- END %]
+          </small>
+
+          <br />
 
           <small>
             <a href="/edoardo/wedding/#hcard-Margaux-Claire-Lamont">Margaux</a> &#9829; <a href="/edoardo/wedding/#hcard-Edoardo-Romeo-Sabadelli">Edoardo</a><br />&copy; MMXI

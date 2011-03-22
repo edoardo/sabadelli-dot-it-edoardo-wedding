@@ -19,23 +19,23 @@
        
           <article id="ceremony" class="vevent">
             <h2 class="summary">[% h.l('Ceremony') %]</h2>
-            <p>The ceremony will take place in <span class="location"><a href="http://tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting at <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.</p>
+            <p>[% h.l('The ceremony will take place in <span class="location"><a href="http://tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting at <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.') %]</p>
           </article>
 
           <article id="reception" class="vevent">
             <h2 class="summary">[% h.l('Reception') %]</h2>
-            <p>The reception will be held in <span class="location"><a href="http://www.tramonto-venue.co.za/the_venue.html" class="url">the Venue</a> also at <a href="http://www.tramnto-venue.co.za/">Tramonto</a></span>, starting approximately at <time datetime="2011-09-30T19:00+02:00" class="dtstart" title="2011-09-30T19:00+02:00">19:00 <abbr title="South Africa Standard Time">SAST</abbr></time>.</p>
-            <p>Buffet dinner will be served, with music and dancing to follow.</p>
+            <p>[% h.l('The reception will be held in <span class="location"><a href="http://www.tramonto-venue.co.za/the_venue.html" class="url">the Venue</a> also at <a href="http://www.tramnto-venue.co.za/">Tramonto</a></span>, starting approximately at <time datetime="2011-09-30T19:00+02:00" class="dtstart" title="2011-09-30T19:00+02:00">19:00 <abbr title="South Africa Standard Time">SAST</abbr></time>.') %]</p>
+            <p>[% h.l('Buffet dinner will be served, with music and dancing to follow.') %]</p>
           </article>
 
           <article>
             <h2>[% h.l('Map and driving directions') %]</h2>
-            <p>The following map shows the area around Tramonto in George.</p>
-            <p class="geo">If you're driving and have a <abbr title="Global Positioning System">GPS</abbr>, you can use these coordinates to reach the location: <span class="latitude" title="-033.9644444">S 33° 57' 52"</span> - <span class="longitude" title="022.3736111">E 22° 22' 25"</span>.</p>
-            <p>There's parking space on the premises.</p>
+            <p>[% h.l('The following map shows the area around Tramonto in George.') %]</p>
+            <p class="geo">[% h.l('If you\'re driving and have a <abbr title="Global Positioning System">GPS</abbr>, you can use these coordinates to reach the location: <span class="latitude" title="-033.9644444">S 33° 57\' 52"</span> - <span class="longitude" title="022.3736111">E 22° 22\' 25"</span>.') %]</p>
+            <p>[% h.l('There\'s parking space on the premises.') %]</p>
 
             <iframe width="425" height="350" src="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=213295614037161422801.00049c80d5f8ad3f2d350&amp;ll=-33.978955,22.412109&amp;spn=0.099644,0.145912&amp;z=12&amp;output=embed"></iframe>
-            <small><a href="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=213295614037161422801.00049c80d5f8ad3f2d350&amp;ll=-33.978955,22.412109&amp;spn=0.099644,0.145912&amp;z=12&amp;source=embed">View in a larger map</a></small>.
+            <small><a href="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=213295614037161422801.00049c80d5f8ad3f2d350&amp;ll=-33.978955,22.412109&amp;spn=0.099644,0.145912&amp;z=12&amp;source=embed">[% h.l('View in a larger map') %]</a></small>.
           </article>
         </section>
 
@@ -43,13 +43,12 @@
          <h1>[% h.l('About us') %]</h1>
 
          <article>
-          <p>We first met in Oslo sometime in July 2007, when Margaux worked for a couple of weeks at Opera Software as a summer intern. Annchen played a role here ;)</p>
-          <p>After that, apart for being friends on Facebook, we didn't see each other for almost a whole year, until June 2008, when Edoardo got the brilliant idea of
-          asking me out, once he was back from a vacation in his homeland.</p>
-          <p>From that day, we kept in touch while Edoardo was roaming around Norway.</p>
-          <p>We eventually started our relationship in July 2008.</p>
-          <p>In November Margaux moved north to Stjørdal for work, but even with more than 500 km separating us and countless flights across Norway, the story continued.</p>
-          <p>We got engaged in July 2010 and Margaux moved back to Oslo a few months later.</p>
+          <p>[% h.l('We first met in Oslo sometime in July 2007, when Margaux worked for a couple of weeks at Opera Software as a summer intern. Annchen played a role here') %] ;)</p>
+          <p>[% h.l('After that, apart for being friends on Facebook, we didn\'t see each other for almost a whole year, until June 2008, when Edoardo got the brilliant idea of asking me out, once he was back from a vacation in his homeland.') %]</p>
+          <p>[% h.l('From that day, we kept in touch while Edoardo was roaming around Norway.') %]</p>
+          <p>[% h.l('We eventually started our relationship in July 2008.') %]</p>
+          <p>[% h.l('In November Margaux moved north to Stjørdal for work, but even with more than 500 km separating us and countless flights across Norway, the story continued.') %]</p>
+          <p>[% h.l('We got engaged in July 2010 and Margaux moved back to Oslo a few months later.') %]</p>
          </article>
 [%#
          <article>
@@ -71,15 +70,15 @@
           <h1>[% h.l('For our friends from abroad') %]</h1>
 
           <article>
-           <p>We've collected some information on a <a href="/edoardo/wedding/for-our-friends-from-abroad">separate page</a> about flights, accommodation and touristic attractions in the area.</p>
-           <p>We hope you'll have a nice time in South Africa while sharing this special day with us!</p> 
+           <p>[% h.l('We\'ve collected some information on a <a href="/edoardo/wedding/for-our-friends-from-abroad">separate page</a> about flights, accommodation and touristic attractions in the area.') %]</p>
+           <p>[% h.l('We hope you\'ll have a nice time in South Africa while sharing this special day with us!') %]</p> 
           </article>
         </section>
 
         <section id="contacts">
          <h1>[% h.l('Contact us') %]</h1>
 
-         <p>For any request, suggestion, comment you can write us at <a href="mailto:&#119;&#101;&#100;&#100;&#105;&#110;&#103;&#64;&#115;&#97;&#98;&#97;&#100;&#101;&#108;&#108;&#105;&#46;&#105;&#116;">&#119;&#101;&#100;&#100;&#105;&#110;&#103;&#64;&#115;&#97;&#98;&#97;&#100;&#101;&#108;&#108;&#105;&#46;&#105;&#116;</a>.</p>
+         <p>[% h.l('For any request, suggestion, comment you can write us at') %] <a href="mailto:&#119;&#101;&#100;&#100;&#105;&#110;&#103;&#64;&#115;&#97;&#98;&#97;&#100;&#101;&#108;&#108;&#105;&#46;&#105;&#116;">&#119;&#101;&#100;&#100;&#105;&#110;&#103;&#64;&#115;&#97;&#98;&#97;&#100;&#101;&#108;&#108;&#105;&#46;&#105;&#116;</a>.</p>
 
          <article id="hcard-Margaux-Claire-Lamont" class="vcard">
           <h2 class="fn n">
@@ -88,8 +87,8 @@
           <!--<img src="/edoardo/wedding/jpg/margaux.jpg" class="photo" />-->
           <a class="email" href="mailto:&#109;&#97;&#114;&#103;&#97;&#117;&#120;&#108;&#97;&#109;&#111;&#110;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#109;&#97;&#114;&#103;&#97;&#117;&#120;&#108;&#97;&#109;&#111;&#110;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
           <div class="tel"><span class="type">Cell</span>: &#43;&#52;&#55;&#32;&#57;&#54;&#32;&#56;&#51;&#32;&#57;&#50;&#32;&#49;&#55;</div>
-          <a href="/edoardo/wedding/vcf/margaux.vcf" title="Download the business card">Download vCard</a><br />
-          <a href="/edoardo/wedding/png/margaux-datamatrix.png" title="Scan the barcode with your phone's camera">Add to your mobile phone</a>
+          <a href="/edoardo/wedding/vcf/margaux.vcf" title="[% h.l('Download the business card') %]">[% h.l('Download vCard') %]</a><br />
+          <a href="/edoardo/wedding/png/margaux-datamatrix.png" title="[% h.l('Scan the barcode with your phone\'s camera') %]">[% h.l('Add to your mobile phone') %]</a>
          </article>
 
          <article id="hcard-Edoardo-Romeo-Sabadelli" class="vcard">
@@ -98,8 +97,8 @@
           </h2>
           <a class="email" href="mailto:&#101;&#100;&#111;&#97;&#114;&#100;&#111;&#64;&#115;&#97;&#98;&#97;&#100;&#101;&#108;&#108;&#105;&#46;&#105;&#116;">&#101;&#100;&#111;&#97;&#114;&#100;&#111;&#64;&#115;&#97;&#98;&#97;&#100;&#101;&#108;&#108;&#105;&#46;&#105;&#116;</a>
           <div class="tel"><span class="type">Cell</span>: &#43;&#52;&#55;&#32;&#52;&#49;&#32;&#48;&#49;&#32;&#56;&#57;&#32;&#53;&#57;</div>
-          <a href="/edoardo/wedding/vcf/edoardo.vcf" title="Download the business card">Download vCard</a><br />
-          <a href="/edoardo/wedding/png/edoardo-datamatrix.png" title="Scan the barcode with your phone's camera">Add to your mobile phone</a>
+          <a href="/edoardo/wedding/vcf/edoardo.vcf" title="[% h.l('Download the business card') %]">[% h.l('Download vCard') %]</a><br />
+          <a href="/edoardo/wedding/png/edoardo-datamatrix.png" title="[% h.l('Scan the barcode with your phone\'s camera') %]">[% h.l('Add to your mobile phone') %]</a>
          </article>
         </section>
 [%- END %]

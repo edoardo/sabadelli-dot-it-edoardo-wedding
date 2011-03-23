@@ -24,7 +24,7 @@
 
           <article id="reception" class="vevent">
             <h2 class="summary">[% h.l('Reception') %]</h2>
-            <p>[% h.l('The reception will be held in <span class="location"><a href="http://www.tramonto-venue.co.za/the_venue.html" class="url">the Venue</a> also at <a href="http://www.tramnto-venue.co.za/">Tramonto</a></span>, starting approximately at <time datetime="2011-09-30T19:00+02:00" class="dtstart" title="2011-09-30T19:00+02:00">19:00 <abbr title="South Africa Standard Time">SAST</abbr></time>.') %]</p>
+            <p>[% h.l('The reception will be held in <span class="location"><a href="http://www.tramonto-venue.co.za/the_venue.html" class="url">the Venue</a> also at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting approximately at <time datetime="2011-09-30T19:00+02:00" class="dtstart" title="2011-09-30T19:00+02:00">19:00 <abbr title="South Africa Standard Time">SAST</abbr></time>.') %]</p>
             <p>[% h.l('Buffet dinner will be served, with music and dancing to follow.') %]</p>
           </article>
 

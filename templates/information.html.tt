@@ -10,17 +10,17 @@
           <h1>[% h.l('Flights') %]</h1>
 
           <article>
-           <p>The closest airport to the venue is the <a href="http://www.airports.co.za/home.asp?pid=233">George Airport</a> (GRJ).</p>
-           <p>If you travel from Italy or Norway, you'll probably fly to South Africa via Johannesburg (JNB) or Cape Town (CPT).</p>
-           <p>Once there, <a href="http://www.flysaa.com/">South African Airways</a> has several domestic flights connecting Cape Town (CPT) and Johannesburg (JNB) to George.</p>
+           <p>[% h.l('The closest airport to the venue is the <a href="http://www.airports.co.za/home.asp?pid=233">George Airport</a>') %] (GRJ).</p>
+           <p>[% h.l('If you travel from Italy or Norway, you\'ll probably fly to South Africa via Johannesburg (JNB) or Cape Town (CPT).') %]</p>
+           <p>[% h.l('Once there, <a href="http://www.flysaa.com/">South African Airways</a> has several domestic flights connecting Cape Town (CPT) and Johannesburg (JNB) to George.') %]</p>
 
           <h2>[% h.l('Flight search') %]</h2>
-          <p>We've collected some websites that can be used to search and book flights to South Africa.</p>
+          <p>[% h.l('We\'ve collected some websites that can be used to search and book flights to South Africa.') %]</p>
           <ul>
-           <li><a href="http://www.hipmunk.com/">Hipmunk</a>: easy and effective website for comparing different solutions. It has support for multi-city flights planning.
-           <li><a href="http://www.swiss.com/">Swiss Airlines</a>: from our researches, Swiss Airlines offers one of the cheapest ticket to Johannesburg (JNB) from Zurich (ZRH); consider them if you travel from Europe.
-           <li><a href="http://www.lufthansa.com/">Lufthansa</a>: a bit more expensive than Swiss Airlines, but also offers some good solutions, most probably transiting through Frankfurt (FRA), and you might end up flying on a new and shiny Airbus A380 ;)
-           <li><a href="http://www.flysaa.com/">South African Airways</a>: if you buy tickets separately you'll end up buying a flight to George (most probably from Johannesburg) here.
+           <li><a href="http://www.hipmunk.com/">Hipmunk</a>: [% h.l('easy and effective website for comparing different solutions. It has support for multi-city flights planning.') %]
+           <li><a href="http://www.swiss.com/">Swiss Airlines</a>: [% h.l('from our researches, Swiss Airlines offers one of the cheapest ticket to Johannesburg (JNB) from Zurich (ZRH); consider them if you travel from Europe.') %]
+           <li><a href="http://www.lufthansa.com/">Lufthansa</a>: [% h.l('a bit more expensive than Swiss Airlines, but also offers some good solutions, most probably transiting through Frankfurt (FRA), and you might end up flying on a new and shiny Airbus A380 ;)') %]
+           <li><a href="http://www.flysaa.com/">South African Airways</a>: [% h.l('if you buy tickets separately you\'ll end up buying a flight to George (most probably from Johannesburg) here.') %]
           </ul>
           </article>
         </section>
@@ -28,18 +28,18 @@
         <section>
           <h1>[% h.l('Accommodation') %]</h1>
           <article>
-            <p>What follows is the list of suggestions for accommodation we got from <a href="http://www.tramonto-venue.co.za/">Tramonto</a>.</p>
+            <p>[% h.l('What follows is the list of suggestions for accommodation we got from <a href="http://www.tramonto-venue.co.za/">Tramonto</a>.') %]</p>
             <ul>
-              <li><a href="http://www.sa-venues.com/visit/farmlands/">Farmlands</a>: a lovely farm and country atmosphere and central base to explore the Garden Route.
-              <li><a href="http://www.wheretostay.co.za/africansun/">African Sun</a>: a small holding with relaxing atmosphere and a beautiful view of the Outeniqua mountains.
-              <li><a href="http://www.sa-venues.com/visit/10caledonstreet/">10 Caledon Street Guest House</a>: a Bed &amp; Breakfast Guest House in George, Garden Route situated in beautiful and tranquil surroundings.
-              <li><a href="http://www.sa-venues.com/visit/malvernmanor/">Malvern Manor Country Guest House</a>: a luxury 4 star Guest House on a 50 acre country estate near Fancourt, which sits on the foothills of the Outeniqua mountains.
-              <li><a href="http://www.sa-venues.com/visit/argylehouse/">Argyle House</a>: a guest house located in a quiet cul–de–sac 200m from the state forest in the exclusive George suburb of Heatherlands.
-              <li><a href="http://www.sa-venues.com/visit/tantivvey/">Tantivvey Guest Farm</a>: a small farm surrounded by the beautiful Outeniqua mountains.
-              <li><a href="http://www.sa-venues.com/visit/thegardenvilla/">The Garden Villa</a>: a luxury place of tranquillity, a graceful Cape-Dutch homestead right at the foot of the Outeniqua mountains.
+              <li><a href="http://www.sa-venues.com/visit/farmlands/">Farmlands</a>: [% h.l('a lovely farm and country atmosphere and central base to explore the Garden Route.') %]
+              <li><a href="http://www.wheretostay.co.za/africansun/">African Sun</a>: [% h.l('a small holding with relaxing atmosphere and a beautiful view of the Outeniqua mountains.') %]
+              <li><a href="http://www.sa-venues.com/visit/10caledonstreet/">10 Caledon Street Guest House</a>: [% h.l('a Bed &amp; Breakfast guest house in George, Garden Route situated in beautiful and tranquil surroundings.') %]
+              <li><a href="http://www.sa-venues.com/visit/malvernmanor/">Malvern Manor Country Guest House</a>: [% h.l('a luxury 4 star Guest House on a 50 acre country estate near Fancourt, which sits on the foothills of the Outeniqua mountains.') %]
+              <li><a href="http://www.sa-venues.com/visit/argylehouse/">Argyle House</a>: [% h.l('a guest house located in a quiet cul–de–sac 200m from the state forest in the exclusive George suburb of Heatherlands.') %]
+              <li><a href="http://www.sa-venues.com/visit/tantivvey/">Tantivvey Guest Farm</a>: [% h.l('a small farm surrounded by the beautiful Outeniqua mountains.') %]
+              <li><a href="http://www.sa-venues.com/visit/thegardenvilla/">The Garden Villa</a>: [% h.l('a luxury place of tranquillity, a graceful Cape-Dutch homestead right at the foot of the Outeniqua mountains.') %]
             </ul>
-            <p>All these are very close to the wedding venue, but there are many other possibilities in George and its surroundings.</p>
-            <p>Tramonto also offers accommodation at their <a href="http://www.tramonto-venue.co.za/the_guesthouse.html">Guesthouse</a>.</p>
+            <p>[% h.l('All these are very close to the wedding venue, but there are many other possibilities in George and its surroundings.') %]</p>
+            <p>[% h.l('Tramonto also offers accommodation at their <a href="http://www.tramonto-venue.co.za/the_guesthouse.html">Guesthouse</a>.') %]</p>
           </article>
         </section>
 
@@ -47,16 +47,16 @@
           <h1>[% h.l('Transportation') %]</h1>
 
           <article>
-          <p>If you plan to visit a bit South Africa, you might end up renting a car.</p>
-          <p>For driving in South Africa you need an international driving licence and, more importantly, remember to drive on the lefthand side of the road!</p>
+          <p>[% h.l('If you plan to visit a bit South Africa, you might end up renting a car.') %]</p>
+          <p>[% h.l('For driving in South Africa you need an international driving licence and, more importantly, remember to drive on the lefthand side of the road!') %]</p>
 
           <h2>[% h.l('Italy') %]</h2>
-          <p>You can get it from the local office of the Motorizzazione Civile.</p>
-          <p>Read more on this <a href="http://www.aci.it/viaggia-con-noi/per-viaggiare/patente-internazionale.html">page</a> of the <a href="http://www.aci.it/"><abbr title="Automobile Club Italia">ACI</abbr></a> website and on the <a href="http://www.mit.gov.it/mit/site.php?p=cm&amp;o=vd&amp;id=308#4">Ministero delle infrastrutture e trasporti</a> website.</p>
+          <p>[% h.l('You can get it from the local office of the Motorizzazione Civile.') %]</p>
+          <p>[% h.l('Read more on this <a href="http://www.aci.it/viaggia-con-noi/per-viaggiare/patente-internazionale.html">page</a> of the <a href="http://www.aci.it/"><abbr title="Automobile Club Italia">ACI</abbr></a> website and on the Ministero delle infrastrutture e trasporti <a href="http://www.mit.gov.it/mit/site.php?p=cm&amp;o=vd&amp;id=308#4">website</a>.') %]</p>
 
           <h2>[% h.l('Norway') %]</h2>
-          <p>You can get it very easily at <a href="http://www.kna.no/"><abbr title="Kongelig Norge Automobilklub">KNA</abbr></a>.</p>
-          <p>Read about the "Internasjonalt førerkort" in <a href="http://www.kna.no/Default.asp?CatID=1255">this page</a> on their website.</p>
+          <p>[% h.l('You can get it very easily at <a href="http://www.kna.no/"><abbr title="Kongelig Norge Automobilklub">KNA</abbr></a>.') %]</p>
+          <p>[% h.l('Read about the "Internasjonalt førerkort" in <a href="http://www.kna.no/Default.asp?CatID=1255">this page</a> on their website.') %]</p>
           </article>
         </section>
 [%- END %]

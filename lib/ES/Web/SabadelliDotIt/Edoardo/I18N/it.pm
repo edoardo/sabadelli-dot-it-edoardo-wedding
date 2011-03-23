@@ -13,19 +13,12 @@ q(Margaux and Edoardo's wedding) => 'Il matrimonio di Margaux e Edoardo',
 'Margaux and Edoardo' => 'Margaux e Edoardo',
 '30 September 2011' => '30 settembre 2011',
 
-    'Flights' => 'Voli',
-    'Flight search' => 'Ricerca voli',
-    'Accommodation' => 'Alloggio',
-    'Transportation' => 'Mezzi di trasporto',
-    'Italy' => 'Italia',
-    'Norway' => 'Norvegia',
-
 # Wedding
 'Wedding' => 'Matrimonio',
 
 'Ceremony' => 'Cerimonia',
-q(The ceremony will take place in <span class="location"><a href="http://tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting at <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.) =>
-q(La cerimonia si terrà presso <span class="location"><a href="http://tramonto-venue.co.za/the_chapel.html" class="url">la Cappella</a> a <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, con inizio alle ore <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> in punto.),
+q(The ceremony will take place in <span class="location"><a href="http://www.tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting at <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.) =>
+q(La cerimonia si terrà presso <span class="location"><a href="http://www.tramonto-venue.co.za/the_chapel.html" class="url">la Cappella</a> a <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, con inizio alle ore <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> in punto.),
 
 'Reception' => 'Ricevimento',
 q(The reception will be held in <span class="location"><a href="http://www.tramonto-venue.co.za/the_venue.html" class="url">the Venue</a> also at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting approximately at <time datetime="2011-09-30T19:00+02:00" class="dtstart" title="2011-09-30T19:00+02:00">19:00 <abbr title="South Africa Standard Time">SAST</abbr></time>.) =>
@@ -94,6 +87,93 @@ q(Leggi il barcode con la fotocamera del cellulare),
 
 q(Add to your mobile phone) =>
 q(Aggiungi al cellulare),
+
+# Flights
+'Flights' => 'Voli',
+           
+q(The closest airport to the venue is the <a href="http://www.airports.co.za/home.asp?pid=233">George Airport</a>) =>
+q(L'aeroporto più vicino al luogo dove si svolgerà il matrimonio è l'<a href="http://www.airports.co.za/home.asp?pid=233">aeroporto di George</a>),
+
+q{If you travel from Italy or Norway, you'll probably fly to South Africa via Johannesburg (JNB) or Cape Town (CPT).} =>
+q{Se viaggiate dall'Italia o dalla Norvegia, probabilmente volerete in Sud Africa via Johannesburg (JNB) o Cape Town (CPT).},
+
+q{Once there, <a href="http://www.flysaa.com/">South African Airways</a> has several domestic flights connecting Cape Town (CPT) and Johannesburg (JNB) to George.} =>
+q{Una volta là, <a href="http://www.flysaa.com/">South African Airways</a> fornisce diversi voli domestici che collegano Cape Town (CPT) e Johannesburg (JNB) a George.},
+
+'Flight search' => 'Ricerca voli',
+
+q(We've collected some websites that can be used to search and book flights to South Africa.) =>
+q(Abbiamo raccolto alcuni siti web che potete usare per ricercare e prenotare i voli per il Sud Africa.),
+
+q(easy and effective website for comparing different solutions. It has support for multi-city flights planning.) =>
+q(sito facile e efficace per confrontare diverse soluzioni. Supporta la ricerca di voli con scali multipli.),
+
+q{from our researches, Swiss Airlines offers one of the cheapest ticket to Johannesburg (JNB) from Zurich (ZRH); consider them if you travel from Europe.} =>
+q{dalle nostre ricerche, la Swiss Airlines offre una delle soluzioni più economiche per volare a Johannesburg (JNB) da Zurigo (ZRH); tenetelo in considerazione se viaggiate dall'Europa.},
+
+q{a bit more expensive than Swiss Airlines, but also offers some good solutions, most probably transiting through Frankfurt (FRA), and you might end up flying on a new and shiny Airbus A380 ;)} =>
+q{un pò più costosa della Swiss Airlines, ma offre valide alternative, molto probabilmente via Francoforte (FRA), e potreste volare su un nuovissimo Airbus A380 ;)},
+
+q{if you buy tickets separately you'll end up buying a flight to George (most probably from Johannesburg) here.} =>
+q{se comprate i biglietti separatamente, dovete passare di qua per prenotare un volo per George (molto probabilmente da Johannesburg).},
+
+# Accommodation
+'Accommodation' => 'Alloggi',
+
+q(What follows is the list of suggestions for accommodation we got from <a href="http://www.tramonto-venue.co.za/">Tramonto</a>.) =>
+q(Ecco la lista di suggerimenti per trovare alloggio che ci è stata fornita da <a href="http://www.tramonto-venue.co.za/">Tramonto</a>.),
+
+q(a lovely farm and country atmosphere and central base to explore the Garden Route.) =>
+q(una bella fattoria dall'atmosfera rustica da utilizzare come base per esplorare la Garden Route.),
+
+q(a small holding with relaxing atmosphere and a beautiful view of the Outeniqua mountains.) =>
+q(una piccola tenuta in un'ambiente rilassante e il fantastico panorama offerto delle montagne Outeniqua.),
+
+q(a Bed &amp; Breakfast Guest House in George, Garden Route situated in beautiful and tranquil surroundings.) =>
+q(un Bed &amp; Breakfast in George, sulla Garden Route, situato in una bella e tranquilla posizione.),
+
+q(a luxury 4 star guest house on a 50 acre country estate near Fancourt, which sits on the foothills of the Outeniqua mountains.) =>
+q(una guest house 4 stelle lussuriosa in una tenuta di 50 acri vicino a Fancourt, ai piedi delle montagne Outeniqua.),
+
+q(a guest house located in a quiet cul–de–sac 200m from the state forest in the exclusive George suburb of Heatherlands.) =>
+q(una guest house situata un un tranquillo cul-de-sac a 200m dal bosco nell'esclusivo borgo Heatherlands di George.),
+
+q(a small farm surrounded by the beautiful Outeniqua mountains.) =>
+q(una piccola fattoria circondata dalle bellissime montagne Outeniqua.),
+
+q(a luxury place of tranquillity, a graceful Cape-Dutch homestead right at the foot of the Outeniqua mountains.) =>
+q(un lussurioso luogo di tranquillità, una graziosa tenuta in stile Cape-Dutch ai piedi delle montagne Outeniqua.),
+
+q(All these are very close to the wedding venue, but there are many other possibilities in George and its surroundings.) =>
+q(Tutte queste locazioni si trovano molto vicine al luogo dove si svolgerà il matrimonio, ma ci sono molte altre possibilità a George e nei suoi dintorni.),
+
+q(Tramonto also offers accommodation at their <a href="http://www.tramonto-venue.co.za/the_guesthouse.html">Guesthouse</a>.) =>
+q(Tramonto offre anche alloggio presso <a href="http://www.tramonto-venue.co.za/the_guesthouse.html">la Guesthouse</a>.),
+
+# Transportation
+'Transportation' => 'Mezzi di trasporto',
+
+q(If you plan to visit a bit South Africa, you might end up renting a car.) =>
+q(Se pensate di visitare un pò il Sud Africa, probabilmente vorrete noleggiare un'auto.),
+
+q(For driving in South Africa you need an international driving licence and, more importantly, remember to drive on the lefthand side of the road!) =>
+q(Per guidare in Sud Africa c'è bisogno della patente internazionale e, ancora più importante, ricordarsi di guidare sul lato sinistro della strada!),
+
+'Italy' => 'Italia',
+
+q(You can get it from the local office of the Motorizzazione Civile.) =>
+q(Potete ottenerla dall'ufficio locale della Motorizzazione Civile.),
+
+q(Read more on this <a href="http://www.aci.it/viaggia-con-noi/per-viaggiare/patente-internazionale.html">page</a> of the <a href="http://www.aci.it/"><abbr title="Automobile Club Italia">ACI</abbr></a> website and on the Ministero delle infrastrutture e trasporti <a href="http://www.mit.gov.it/mit/site.php?p=cm&amp;o=vd&amp;id=308#4">website</a>.) =>
+q(Maggiori informazioni su questa <a href="http://www.aci.it/viaggia-con-noi/per-viaggiare/patente-internazionale.html">pagina</a> del sito dell'<a href="http://www.aci.it/"><abbr title="Automobile Club Italia">ACI</abbr></a> e sul <a href="http://www.mit.gov.it/mit/site.php?p=cm&amp;o=vd&amp;id=308#4">sito del Ministero delle infrastrutture e trasporti</a>.),
+
+'Norway' => 'Norvegia',
+
+q(You can get it very easily at <a href="http://www.kna.no/"><abbr title="Kongelig Norge Automobilklub">KNA</abbr></a>.) =>
+q(Potete ottenerla molto facilmente presso il <a href="http://www.kna.no/"><abbr title="Kongelig Norge Automobilklub">KNA</abbr></a>.),
+
+q(Read about the "Internasjonalt førerkort" in <a href="http://www.kna.no/Default.asp?CatID=1255">this page</a> on their website.) =>
+q(Maggiori informazioni riguardo l'"Internasjonalt førerkort" in <a href="http://www.kna.no/Default.asp?CatID=1255">questa pagina</a> del loro sito web.),
 
 );
 

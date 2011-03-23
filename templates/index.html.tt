@@ -19,7 +19,7 @@
        
           <article id="ceremony" class="vevent">
             <h2 class="summary">[% h.l('Ceremony') %]</h2>
-            <p>[% h.l('The ceremony will take place in <span class="location"><a href="http://tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting at <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.') %]</p>
+            <p>[% h.l('The ceremony will take place in <span class="location"><a href="http://www.tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting at <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.') %]</p>
           </article>
 
           <article id="reception" class="vevent">

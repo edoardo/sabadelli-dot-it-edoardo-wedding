@@ -23,8 +23,10 @@ get '/edoardo/wedding' => sub {
 
     my $lang = $self->session('lang');
 
-    if ($self->param('lang')) {
-        $lang = $self->param('lang');
+    my $lang_par = $self->param('lang');
+
+    if ($lang_par && $lang_par =~ m{^(en|it)$}) {
+        $lang = $lang_par;
 
         $self->session(lang => $lang);
     }
@@ -38,8 +40,10 @@ get '/edoardo/wedding/for-our-friends-from-abroad' => sub {
 
     my $lang = $self->session('lang');
 
-    if ($self->param('lang')) {
-        $lang = $self->param('lang');
+    my $lang_par = $self->param('lang');
+
+    if ($lang_par && $lang_par =~ m{^(en|it)$}) {
+        $lang = $lang_par;
 
         $self->session(lang => $lang);
     }

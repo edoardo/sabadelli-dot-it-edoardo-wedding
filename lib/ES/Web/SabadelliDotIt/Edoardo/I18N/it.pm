@@ -53,7 +53,7 @@ q(From that day, we kept in touch while Edoardo was roaming around Norway.) =>
 q(Da quel giorno abbiamo mantenuto i contatti mentre Edoardo viaggiava in giro per la Norvegia.),
 
 q(We eventually started our relationship in July 2008.) =>
-q(Abbiamo iniziato la uscire insieme nel luglio 2008.),
+q(Abbiamo iniziato a uscire insieme nel luglio 2008.),
 
 q(In November Margaux moved north to Stjørdal for work, but even with more than 500 km separating us and countless flights across Norway, the story continued.) =>
 q(In novembre Margaux si è trasferita a Stjørdal per lavoro, ma anche con più di 500 km a separarci e innumerevoli voli attraverso la Norvegia, la storia è continuata.),
@@ -129,7 +129,7 @@ q(una bella fattoria dall'atmosfera rustica da utilizzare come base per esplorar
 q(a small holding with relaxing atmosphere and a beautiful view of the Outeniqua mountains.) =>
 q(una piccola tenuta in un'ambiente rilassante e il fantastico panorama offerto delle montagne Outeniqua.),
 
-q(a Bed &amp; Breakfast Guest House in George, Garden Route situated in beautiful and tranquil surroundings.) =>
+q(a Bed &amp; Breakfast guest house in George, Garden Route situated in beautiful and tranquil surroundings.) =>
 q(un Bed &amp; Breakfast in George, sulla Garden Route, situato in una bella e tranquilla posizione.),
 
 q(a luxury 4 star guest house on a 50 acre country estate near Fancourt, which sits on the foothills of the Outeniqua mountains.) =>
@@ -145,7 +145,7 @@ q(a luxury place of tranquillity, a graceful Cape-Dutch homestead right at the f
 q(un lussurioso luogo di tranquillità, una graziosa tenuta in stile Cape-Dutch ai piedi delle montagne Outeniqua.),
 
 q(All these are very close to the wedding venue, but there are many other possibilities in George and its surroundings.) =>
-q(Tutte queste locazioni si trovano molto vicine al luogo dove si svolgerà il matrimonio, ma ci sono molte altre possibilità a George e nei suoi dintorni.),
+q(Tutte queste località si trovano molto vicine al luogo dove si svolgerà il matrimonio, ma ci sono molte altre possibilità a George e nei suoi dintorni.),
 
 q(Tramonto also offers accommodation at their <a href="http://www.tramonto-venue.co.za/the_guesthouse.html">Guesthouse</a>.) =>
 q(Tramonto offre anche alloggio presso <a href="http://www.tramonto-venue.co.za/the_guesthouse.html">la Guesthouse</a>.),

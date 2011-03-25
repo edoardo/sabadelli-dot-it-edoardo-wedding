@@ -1,9 +1,4 @@
 [%-
-    FILTER null;
-    h.languages(app.lang);
-    END;
--%]
-[%-
     WRAPPER layouts/layout.html.tt
         css = [
             'jquery.lightbox-0.5.css'

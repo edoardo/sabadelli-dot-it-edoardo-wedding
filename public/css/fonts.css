@@ -1,50 +1,23 @@
-/*
-@font-face {
-  font-family: 'Chopin Script';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Chopin Script'), url('/edoardo/wedding/css/fonts/ChopinScript.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Brock Script';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Brock Script'), url('http://beta.sabadelli.it/edoardo/css/fonts/BrockScript.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'England Hand DB';
-  font-style: normal;
-  font-weight: normal;
-  src: local('England Hand DB'), url('http://beta.sabadelli.it/edoardo/css/fonts/EnglandHandDB.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Scriptina';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Scriptina'), url('http://beta.sabadelli.it/edoardo/css/fonts/Scriptina.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'BigNoodle Titling';
-  font-style: normal;
-  font-weight: normal;
-  src: local('BigNoodle Titling'), url('http://beta.sabadelli.it/edoardo/css/fonts/BigNoodleTitling.ttf') format('truetype');
-}
-*/
-@font-face {
-  font-family: 'Splendid ES';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Splendid ES'), url('/edoardo/wedding/css/fonts/SplendidES.ttf') format('truetype');
-}
-
 @font-face {
   font-family: 'Bebas';
+  src: url('/edoardo/wedding/css/fonts/Bebas.eot');
+  src: local('Bebas'),
+       url('/edoardo/wedding/css/fonts/Bebas.eot?iefix') format('eot'),
+       url('/edoardo/wedding/css/fonts/Bebas.woff') format('woff'),
+       url('/edoardo/wedding/css/fonts/Bebas.ttf') format('truetype'),
+       url('/edoardo/wedding/css/fonts/Bebas.svg#webfontSRj8j0PE') format('svg');
   font-style: normal;
   font-weight: normal;
-  src: local('Bebas'), url('/edoardo/wedding/css/fonts/Bebas.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Splendid ES';
+  src: url('/edoardo/wedding/css/fonts/SplendidES.eot');
+  src: local('Splendid ES'),
+       url('/edoardo/wedding/css/fonts/SplendidES.eot?iefix') format('eot'),
+       url('/edoardo/wedding/css/fonts/SplendidES.woff') format('woff'),
+       url('/edoardo/wedding/css/fonts/SplendidES.ttf') format('truetype'),
+       url('/edoardo/wedding/css/fonts/SplendidES.svg#webfonty9jpxneC') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}

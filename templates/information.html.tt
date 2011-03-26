@@ -32,6 +32,7 @@
               <li><a href="http://www.sa-venues.com/visit/argylehouse/">Argyle House</a>: [% h.l('a guest house located in a quiet cul–de–sac 200m from the state forest in the exclusive George suburb of Heatherlands.') %]
               <li><a href="http://www.sa-venues.com/visit/tantivvey/">Tantivvey Guest Farm</a>: [% h.l('a small farm surrounded by the beautiful Outeniqua mountains.') %]
               <li><a href="http://www.sa-venues.com/visit/thegardenvilla/">The Garden Villa</a>: [% h.l('a luxury place of tranquillity, a graceful Cape-Dutch homestead right at the foot of the Outeniqua mountains.') %]
+              <li><a href="http://www.sa-venues.com/visit/thepennyroyal/">The Penny Royal</a>: [% h.l('a beautiful, self-catering "home from home" overlooking the ocean, situated between the beautiful town of George and quaint village of the Wilderness.') %]
             </ul>
             <p>[% h.l('All these are very close to the wedding venue, but there are many other possibilities in George and its surroundings.') %]</p>
             <p>[% h.l('Tramonto also offers accommodation at their <a href="http://www.tramonto-venue.co.za/the_guesthouse.html">Guesthouse</a>.') %]</p>

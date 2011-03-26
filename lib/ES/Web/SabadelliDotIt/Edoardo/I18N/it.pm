@@ -144,6 +144,9 @@ q(una piccola fattoria circondata dalle bellissime montagne Outeniqua.),
 q(a luxury place of tranquillity, a graceful Cape-Dutch homestead right at the foot of the Outeniqua mountains.) =>
 q(un lussurioso luogo di tranquillità, una graziosa tenuta in stile Cape-Dutch ai piedi delle montagne Outeniqua.),
 
+q(a beautiful, self-catering "home from home" overlooking the ocean, situated between the beautiful town of George and quaint village of the Wilderness.) =>
+q(una bella "casa lontano da casa" con self-catering, con vista sull'oceano, situata tra la splendida città di George e il caratteristico villaggio di Wilderness.),
+
 q(All these are very close to the wedding venue, but there are many other possibilities in George and its surroundings.) =>
 q(Tutte queste località si trovano molto vicine al luogo dove si svolgerà il matrimonio, ma ci sono molte altre possibilità a George e nei suoi dintorni.),
 

@@ -29,7 +29,7 @@
             <p class="geo">[% h.l('If you\'re driving and have a <abbr title="Global Positioning System">GPS</abbr>, you can use these coordinates to reach the location: <span class="latitude" title="-033.9644444">S 33° 57\' 52"</span> - <span class="longitude" title="022.3736111">E 22° 22\' 25"</span>.') %]</p>
             <p>[% h.l('There\'s parking space on the premises.') %]</p>
 
-            <iframe width="425" height="350" src="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=213295614037161422801.00049c80d5f8ad3f2d350&amp;ll=-33.978955,22.412109&amp;spn=0.099644,0.145912&amp;z=12&amp;output=embed"></iframe>
+            <iframe width="425" height="350" seamless="seamless" src="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=213295614037161422801.00049c80d5f8ad3f2d350&amp;ll=-33.978955,22.412109&amp;spn=0.099644,0.145912&amp;z=12&amp;output=embed"></iframe>
             <small><a href="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=213295614037161422801.00049c80d5f8ad3f2d350&amp;ll=-33.978955,22.412109&amp;spn=0.099644,0.145912&amp;z=12&amp;source=embed">[% h.l('View in a larger map') %]</a></small>.
           </article>
         </section>

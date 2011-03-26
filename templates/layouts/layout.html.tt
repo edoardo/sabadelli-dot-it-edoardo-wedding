@@ -8,6 +8,8 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVklEQVQ4jWPwMJD4Twlm8DCQ+P8/bxZZmPoG/P79myhMewPC1V3/h6u7YrCJMgCmARum2ICTJ0+S5gV0zUQbgG4IsmaSYgGbZpKjEV0zbdPBwOUFSjAAqOnKGVS4UQgAAAAASUVORK5CYII=" />
+
     <link rel="stylesheet" media="all" href="/edoardo/wedding/css/fonts.css" />
     <link rel="stylesheet" media="all" href="/edoardo/wedding/css/style.css" />
     [%- FOREACH file IN css %]

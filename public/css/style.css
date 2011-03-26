@@ -318,8 +318,8 @@ px      68    160    252    344    436    */
     }
 
     /* hide datamatrix barcodes in mobile view */
-    #margaux-qcode,
-    #edoardo-qcode {
+    #hcard-Margaux-Claire-Lamont a[href="/edoardo/wedding/png/margaux-datamatrix.png"],
+    #hcard-Edoardo-Romeo-Sabadelli a[href="/edoardo/wedding/png/edoardo-datamatrix.png"] {
         display: none;
     }
 
@@ -382,8 +382,8 @@ px      68    160    252    */
     }
 
     /* hide datamatrix barcodes in mobile view */
-    #margaux-qcode,
-    #edoardo-qcode {
+    #hcard-Margaux-Claire-Lamont a[href="/edoardo/wedding/png/margaux-datamatrix.png"],
+    #hcard-Edoardo-Romeo-Sabadelli a[href="/edoardo/wedding/png/edoardo-datamatrix.png"] {
         display: none;
     }
 

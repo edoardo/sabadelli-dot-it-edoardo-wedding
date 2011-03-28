@@ -10,7 +10,9 @@ plugin 'charset' => {charset => 'utf-8'};
 plugin 'tt_renderer';
 plugin 'i18n' => {namespace => 'ES::Web::SabadelliDotIt::Edoardo::I18N'};
 
-app->secret('wglisposi!');
+my $config = plugin 'json_config';
+
+app->secret($config->{secret});
 
 app->defaults(
     app => {

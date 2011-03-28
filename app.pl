@@ -18,25 +18,9 @@ app->defaults(
     },
 );
 
-get '/edoardo/wedding' => sub {
-    my $self = shift;
-
-    _set_language($self);
-
-    $self->render('index');
-};
-
-get '/edoardo/wedding/for-our-friends-from-abroad' => sub {
-    my $self = shift;
-
-    _set_language($self);
-
-    $self->render('information');
-};
-
-app->start;
-
-sub _set_language {
+# URL prefix
+# also check/set the current language in the stash for the templates
+under '/edoardo/wedding' => sub {
     my $self = shift;
 
     # take the language based on the users' browser preference
@@ -60,4 +44,20 @@ sub _set_language {
     # needed in the templates for setting the lang attribute
     # and for generating the correct links for switching language
     $self->stash->{app}->{lang} = $lang;
-}
+
+    return 1;
+};
+
+get '/' => sub {
+    my $self = shift;
+
+    $self->render('index');
+};
+
+get '/for-our-friends-from-abroad' => sub {
+    my $self = shift;
+
+    $self->render('information');
+};
+
+app->start;

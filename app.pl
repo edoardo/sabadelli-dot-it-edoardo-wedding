@@ -62,4 +62,14 @@ get '/for-our-friends-from-abroad' => sub {
     $self->render('information');
 };
 
+get '/civil-ceremony-in-cividale' => sub {
+    my $self = shift;
+
+    $self->stash->{i18n}->languages('it');
+    $self->stash->{app}->{lang} = 'it';
+    $self->stash->{app}->{skip_translations} = 1;
+
+    $self->render('civil_ceremony');
+};
+
 app->start;

@@ -83,6 +83,10 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
+.hidden {
+    display: none;
+}
+
 body {
     padding: 54px 0 66px;
     background: transparent url('/edoardo/wedding/css/media/483018-pattern.png') repeat;
@@ -112,6 +116,15 @@ div.white-paper {
     box-shadow: 0 0 10px 4px #cc587b;
     -moz-box-shadow: 0 0 10px 4px #cc587b;
     -webkit-box-shadow: 0 0 10px 4px #cc587b;
+}
+
+div#mediaplayer-box {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 640px;
+    box-shadow: 0 0 4px 2px #483018;
+    -moz-box-shadow: 0 0 4px 2px #483018;
+    -webkit-box-shadow: 0 0 4px 2px #483018;
 }
 
 header, section, footer {

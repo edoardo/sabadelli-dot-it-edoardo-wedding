@@ -6,15 +6,22 @@
         js = [
             'lib/jquery-1.5.1.min.js',
             'lib/jquery.lightbox-0.5.pack.js',
+            'lib/jwplayer/jwplayer.js',
             'site.js'
         ];
 -%]
         <section id="wedding">
           <h1>[% h.l('Wedding') %]</h1>
-       
+      
+          <article class="vevent">
+            <h2 class="summary">[% h.l('Civil ceremony') %]</h2>
+            <p>[% h.l('Due to the impossibility for some of Edoardo\'s family members and several italian friends to attend the wedding in South Africa, we decided to have the civil ceremony and a small reception in his hometown, <a href="http://en.wikipedia.org/wiki/Cividale_del_Friuli">Cividale del Friuli</a>.') %]</p>
+            <p>[% h.l('The civil ceremony took place in the <span class="location">Municipio (townhall) of <a href="http://en.wikipedia.org/wiki/Cividale_del_Friuli" class="url">Cividale del Friuli</a></span> on <time datetime="2011-05-07T11:30+02:00" class="dtstart" title="2011-05-07T11:30+02:00">May 7th at 11:30 CEST</time>, followed by a small reception in a cosy restaurant immersed in a beautiful park.') %]</p>
+          </article>
+ 
           <article id="ceremony" class="vevent">
             <h2 class="summary">[% h.l('Ceremony') %]</h2>
-            <p>[% h.l('The ceremony will take place in <span class="location"><a href="http://www.tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting at <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.') %]</p>
+            <p>[% h.l('The ceremony will be celebrated in <span class="location"><a href="http://www.tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, on <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">September 30th starting at 16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.') %]</p>
           </article>
 
           <article id="reception" class="vevent">
@@ -67,6 +74,20 @@
           <article>
            <p>[% h.l('We\'ve collected some information on a <a href="/edoardo/wedding/for-our-friends-from-abroad">separate page</a> about flights, accommodation and touristic attractions in the area.') %]</p>
            <p>[% h.l('We hope you\'ll have a nice time in South Africa while sharing this special day with us!') %]</p> 
+          </article>
+        </section>
+
+        <section id="photo-video">
+          <h1>[% h.l('Photo and video') %]</h1>
+
+          <article>
+           <h2>[% h.l('May 7, 2011 - Cividale del Friuli') %]</h2>
+           <p>[% h.l('On May 7, 2011 we had our civil wedding ceremony in Edoardo\'s home town Cividale del Friuli.') %]</p>
+           <p>[% h.l('The day was fantastic, with many surprises from family and friends.') %]</p>
+           <p>[% h.l('The following video was made by Alessio and Anna, with the partcipation of other friends, they showed it during the reception and made us quite emotional.') %]</p>
+           <div id="mediaplayer-box">
+            <div id="mediaplayer">Loading video player...</div>
+           </div>
           </article>
         </section>
 

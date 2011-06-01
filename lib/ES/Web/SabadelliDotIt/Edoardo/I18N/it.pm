@@ -11,13 +11,23 @@ our %Lexicon = (
 # Common header
 q(Margaux and Edoardo's wedding) => 'Il matrimonio di Margaux e Edoardo',
 'Margaux and Edoardo' => 'Margaux e Edoardo',
+"'s wedding" => ' sposi',
+'7 May 2011' => '7 maggio 2011',
 '30 September 2011' => '30 settembre 2011',
 
 # Wedding
 'Wedding' => 'Matrimonio',
 
+'Civil ceremony' => 'Cerimonia civile',
+
+q(Due to the impossibility for some of Edoardo's family members and several italian friends to attend the wedding in South Africa, we decided to have the civil ceremony and a small reception in his hometown, <a href="http://en.wikipedia.org/wiki/Cividale_del_Friuli">Cividale del Friuli</a>.) =>
+q(Data l'impossibilità per alcuni parenti di Edoardo e diversi amici italiani di partecipare al matrimonio in Sud Africa, abbiamo deciso di celebrare il matrimonio civile e avere un piccolo ricevimento nel suo paese, <a href="http://en.wikipedia.org/wiki/Cividale_del_Friuli">Cividale del Friuli</a>.),
+
+q{The civil ceremony took place in the <span class="location">Municipio (townhall) of <a href="http://en.wikipedia.org/wiki/Cividale_del_Friuli" class="url">Cividale del Friuli</a></span> on <time datetime="2011-05-07T11:30+02:00" class="dtstart" title="2011-05-07T11:30+02:00">May 7th at 11:30 CEST</time>, followed by a small reception in a cosy restaurant immersed in a beautiful park.} =>
+q(La cerimonia civile ha avuto luogo presso il <span class="location">Municipio di <a href="http://en.wikipedia.org/wiki/Cividale_del_Friuli" class="url">Cividale del Friuli</a></span> il <time datetime="2011-05-07T11:30+02:00" class="dtstart" title="2011-05-07T11:30+02:00">7 maggio alle 11:30 CEST</time>, seguito da un piccolo ricevimento in un ristorante immerso in un bellissimo parco.),
+
 'Ceremony' => 'Cerimonia',
-q(The ceremony will take place in <span class="location"><a href="http://www.tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, starting at <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.) =>
+q(The ceremony will be celebrated in <span class="location"><a href="http://www.tramonto-venue.co.za/the_chapel.html" class="url">the Chapel</a> at <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, on <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">September 30th starting at 16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> sharp.) =>
 q(La cerimonia si terrà presso <span class="location"><a href="http://www.tramonto-venue.co.za/the_chapel.html" class="url">la Cappella</a> a <a href="http://www.tramonto-venue.co.za/">Tramonto</a></span>, con inizio alle ore <time datetime="2011-09-30T16:00+02:00" class="dtstart" title="2011-09-30T16:00+02:00">16:00 <abbr title="South Africa Standard Time">SAST</abbr></time> in punto.),
 
 'Reception' => 'Ricevimento',
@@ -69,6 +79,21 @@ q(Abbiamo raccolto un pò di informazioni in una <a href="/edoardo/wedding/for-o
 
 q(We hope you'll have a nice time in South Africa while sharing this special day with us!) =>
 q(Speriamo che possiate passare una fantastica vacanza in Sud Africa oltre a condividere con noi questo giorno speciale!),
+
+# Photo and video
+'Photo and video' => 'Foto e video',
+
+q(May 7, 2011 - Cividale del Friuli) =>
+'7 maggio 2011 - Cividale del Friuli',
+
+q(On May 7, 2011 we had our civil wedding ceremony in Edoardo's home town Cividale del Friuli.) =>
+q(Il 7 maggio 2011 abbiamo celebrato il matrimonio civile a Cividale del Friuli, la città di Edoardo.),
+
+q(The day was fantastic, with many surprises from family and friends.) =>
+q(La giornata è stata fantastica, con tante sorprese da parte di famiglia e amici.),
+
+q(The following video was made by Alessio and Anna, with the partcipation of other friends, they showed it during the reception and made us quite emotional.) =>
+q(Questo video è stato creato da Alessio e Anna, con la partecipazione di altri amici, ce l'hanno mostrato durante il ricevimento ed è stato un momento emozionante.),
 
 # Contact us
 'Contact us' => 'Contatti',

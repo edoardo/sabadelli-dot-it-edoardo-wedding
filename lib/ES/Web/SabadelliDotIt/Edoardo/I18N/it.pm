@@ -203,6 +203,12 @@ q(Potete ottenerla molto facilmente presso il <a href="http://www.kna.no/"><abbr
 q(Read about the "Internasjonalt førerkort" in <a href="http://www.kna.no/Default.asp?CatID=1255">this page</a> on their website.) =>
 q(Maggiori informazioni riguardo l'"Internasjonalt førerkort" in <a href="http://www.kna.no/Default.asp?CatID=1255">questa pagina</a> del loro sito web.),
 
+# Sightseeing
+
+'Sightseeing' => 'Attrazioni turistiche',
+
+'Ostriches' => 'Struzzi',
+
 );
 
 1;

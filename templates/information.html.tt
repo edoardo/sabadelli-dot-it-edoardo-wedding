@@ -55,4 +55,74 @@
           <p>[% h.l('Read about the "Internasjonalt førerkort" in <a href="http://www.kna.no/Default.asp?CatID=1255">this page</a> on their website.') %]</p>
           </article>
         </section>
+
+        <section>
+          <h1>[% h.l('Sightseeing') %]</h1>
+
+          <article>
+          <h2>Garden Route</h2>
+           <ul>
+           <li><a href="http://www.botlierskop.co.za">Botlierskop</a> Day Safaris: paradise for bird watchers with more than 200 species to be seen (malaria free).
+
+           <li><a href="http://www.birdsofeden.co.za">Birds of Eden</a>: the garden route's very own world class free flight bird sanctuary.
+
+           <li><a href="http://www.monkeyland.co.za">Monkeyland</a>: monkeys, lemurs and apes.
+
+           <li><a href="http://www.elephantsanctuary.co.za">Elephant Sanctuary</a>
+
+           <li><a href="http://www.tenikwa.co.za">Tenikwa Wildlife Awareness Centre</a>: guided tour to meet the indigenous cats of South Africa; walk with the cheetahs.
+
+           <li><a href="http://www.cango.co.za">Cango Wildlife Ranch</a>
+
+           <li><a href="http://www.cangocaves.co.za">Cango Caves</a>
+
+           <li><a href="http://www.colourfulafrica.co.za">Swartberg Mountain</a>: daily tours to the top and back. Tickets & departures from Wilgewandel, 2km from Cango Caves.
+          </ul>
+
+          <strong>Tsitsikamma Forest</strong>
+           <ul>
+            <li><a href="http://www.treetoptour.com">www.treetoptour.com</a>
+
+            <li><a href="mailto:adventure@gardenroute.co.za">adventure@gardenroute.co.za</a>
+            <li><a href="http://www.stormsriver.com">www.stormsriver.com</a>
+           </ul>
+
+          <strong>Bungy jumping</strong>
+           <ul>
+            <li><a href="http://www.faceadrenalin.com">www.faceadrenalin.com</a>: the worlds highest: 216m!
+           </ul>
+
+          <strong>Ocean safaris</strong>
+           <ul>
+            <li><a href="http://www.oceansafaris.co.za">www.oceansafaris.co.za</a>: boat-based whale watching.
+           </ul>
+
+          <strong>Big 5</strong>
+          <ul>
+           <li><a href="http://www.grgamelodge.co.za">Garden Route Game Lodge</a>
+           <li><a href="http://www.plettgamereserve.com">Plettenberg Bay Game Reserve</a>
+          </ul>
+
+          <strong>[% h.l('Ostriches') %]</strong>
+          <ul>
+           <li><a href="http://www.highgate.co.za">Highgate ostrich Show Farm</a>: the worlds first, finest and most original ostrich show farm.
+
+           <li><a href="http://www.cangoostrich.co.za">Cango Ostrich Farm</a>
+          </ul>
+
+           <strong>Knysna</strong>
+            <ul>
+             <li><a href="http://www.knysnacharters.com">Knysna Lagoon charters</a>: Knysna lagoon boat tour, oysterbed tour, sunset cruise, Knysna head experience.
+
+             <li><a href="http://www.featherbed.co.za">Featherbed nature reserve<a/>
+            </ul>
+
+           <h2>Eastern Cape</h2>
+            <ul>
+             <li><a href="http://www.cosmoscuisine.co.za">Cosmos Cuisine</a>
+
+             <li>Game reserves in the surrounding area are: Addo, Raptor farm, Schotia, Cheetah breeding Sanctuary, Amakhala, Kariega Park and others.
+            </ul>
+          </article>
+        </section>
 [%- END %]

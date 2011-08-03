@@ -123,6 +123,18 @@
 
              <li>Game reserves in the surrounding area are: Addo, Raptor farm, Schotia, Cheetah breeding Sanctuary, Amakhala, Kariega Park and others.
             </ul>
+
+           <h2>Cape Town</h2>
+            <ul>
+             <li>Cape Point
+             <li>Table Mountain: cable car, walk and restaurant.
+             <li>Victoria and Alfred (V&A) Waterfront: shopping, restaurants and cinema.
+             <li>Camps Bay
+             <li>Hout Bay: fish and chips at the harbour.
+             <li>Wine route: Stellenbosch, Franschhoek...
+             <li>SA Art Museum
+             <li>Robben Island
+            </ul>
           </article>
         </section>
 [%- END %]

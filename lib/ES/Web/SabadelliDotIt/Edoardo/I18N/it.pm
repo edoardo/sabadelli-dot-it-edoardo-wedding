@@ -204,10 +204,35 @@ q(Read about the "Internasjonalt førerkort" in <a href="http://www.kna.no/Defau
 q(Maggiori informazioni riguardo l'"Internasjonalt førerkort" in <a href="http://www.kna.no/Default.asp?CatID=1255">questa pagina</a> del loro sito web.),
 
 # Sightseeing
-
 'Sightseeing' => 'Attrazioni turistiche',
 
+q[paradise for bird watchers with more than 200 species to be seen (malaria free).] =>
+q[un paradiso per il bird watching, con più di 200 specie da osservare (libero da malaria).],
+q(the Garden Route's very own world class free flight bird sanctuary.) =>
+q(il santuario di uccelli liberi della Garden Route.),
+q(monkeys, lemurs and apes.) =>
+q(scimmie, lemuri e gorilla),
+q(guided tour to meet the indigenous cats of South Africa; walk with the cheetahs.) =>
+q(visite guidate per incontrare i felini del Sud Africa; passeggiate con i ghepardi.),
+q(daily tours to the top and back. Tickets & departures from Wilgewandel, 2km from Cango Caves.) =>
+q(visite giornaliere alla cima della montagna. Biglietti e partenze da Wilgewandel, 2km dalle Cango Caves.),
+q(the worlds highest: 216m!) =>
+q(il più alto del mondo: 216 metri!),
+q(boat-based whale watching.) =>
+q(escursioni in battello per osservare le balene.),
 'Ostriches' => 'Struzzi',
+q(the worlds first, finest and most original ostrich show farm.) =>
+q(il primo e più originale show di struzzi.),
+q(Knysna lagoon boat tour, oysterbed tour, sunset cruise, Knysna Heads experience.) =>
+q(escursione in barca nella laguna di Knysna, visita a Oysterbed, giro in barca al tramonto, visita a Knysna Heads.),
+q(Game reserves in the surrounding area are: Addo, Raptor farm, Schotia, Cheetah breeding Sanctuary, Amakhala, Kariega Park and others.) =>
+q(Riserve animali nei dintorni sonoç Addo, Raptor farm, Schotia, Cheetah breeding Sanctuary, Amakhala, Kariega Park e altre.),
+q(cable car, walk and restaurant.) =>
+q(funivia, camminate e ristoranti.),
+q(shopping, restaurants and cinema.) =>
+q(shopping, ristoranti e cinema.),
+q(fish and chips at the harbour.) =>
+q(fish and chips nel porto.),
 
 );
 

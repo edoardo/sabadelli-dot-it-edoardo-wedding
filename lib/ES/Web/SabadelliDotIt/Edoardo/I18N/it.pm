@@ -172,6 +172,9 @@ q(un lussurioso luogo di tranquillità, una graziosa tenuta in stile Cape-Dutch 
 q(a beautiful, self-catering "home from home" overlooking the ocean, situated between the beautiful town of George and quaint village of the Wilderness.) =>
 q(una bella "casa lontano da casa" con self-catering, con vista sull'oceano, situata tra la splendida città di George e il caratteristico villaggio di Wilderness.),
 
+q(accommodation in a restored Victorian home, furnished with a combination of modern and antique furniture.) =>
+q(alloggio in una casa vittoriana restaurata, arredata con una combinazione di mobili moderni e antichi.),
+
 q(All these are very close to the wedding venue, but there are many other possibilities in George and its surroundings.) =>
 q(Tutte queste località si trovano molto vicine al luogo dove si svolgerà il matrimonio, ma ci sono molte altre possibilità a George e nei suoi dintorni.),
 

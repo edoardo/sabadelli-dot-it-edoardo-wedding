@@ -229,7 +229,7 @@ q(il primo e più originale show di struzzi.),
 q(Knysna lagoon boat tour, oysterbed tour, sunset cruise, Knysna Heads experience.) =>
 q(escursione in barca nella laguna di Knysna, visita a Oysterbed, giro in barca al tramonto, visita a Knysna Heads.),
 q(Game reserves in the surrounding area are: Addo, Raptor farm, Schotia, Cheetah breeding Sanctuary, Amakhala, Kariega Park and others.) =>
-q(Riserve animali nei dintorni sonoç Addo, Raptor farm, Schotia, Cheetah breeding Sanctuary, Amakhala, Kariega Park e altre.),
+q(Riserve animali nei dintorni sono: Addo, Raptor farm, Schotia, Cheetah breeding Sanctuary, Amakhala, Kariega Park e altre.),
 q(cable car, walk and restaurant.) =>
 q(funivia, camminate e ristoranti.),
 q(shopping, restaurants and cinema.) =>

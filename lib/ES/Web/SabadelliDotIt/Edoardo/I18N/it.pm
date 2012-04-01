@@ -95,6 +95,15 @@ q(La giornata è stata fantastica, con tante sorprese da parte di famiglia e ami
 q(The following video was made by Alessio and Anna, with the partcipation of other friends, they showed it during the reception and made us quite emotional.) =>
 q(Questo video è stato creato da Alessio e Anna, con la partecipazione di altri amici, ce l'hanno mostrato durante il ricevimento ed è stato un momento emozionante.),
 
+q(September 30, 2011 - George) =>
+'30 settembre 2011 - George',
+
+q(On September 30, 2011 we had the religious wedding ceremony followed by the reception in Margaux's home town George, in the beautiful Garden Route in South Africa.) =>
+q(Il 30 settembre 2011 abbiamo celebrato il matrimonio religioso seguito dal ricevimento nella città di Margaux, George, nella bellissima Garden Route in Sud Africa.),
+
+q(The spring day was absolutely fantastic, with both families together and many friends.) =>
+q(La giornata primaverile è stata fantastica, con le due famiglie insieme e tanti amici.),
+
 # Contact us
 'Contact us' => 'Contatti',
 

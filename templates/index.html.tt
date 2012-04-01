@@ -97,7 +97,7 @@
 
           <article>
            <h2>[% h.l('September 30, 2011 - George') %]</h2>
-           <p>[% h.l('On September 30, 2011 we had the religious wedding ceremony followed by the reception in Margaux\'s home town George, in the beautiful Garden Route in South Africa.') %]</p>
+           <p>[% h.l("On September 30, 2011 we had the religious wedding ceremony followed by the reception in Margaux's home town George, in the beautiful Garden Route in South Africa.") %]</p>
            <p>[% h.l('The spring day was absolutely fantastic, with both families together and many friends.') %]</p>
           </article>
 

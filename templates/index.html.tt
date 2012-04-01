@@ -10,6 +10,11 @@
             'site.js'
         ];
 -%]
+
+        <div id="mediaplayer1-box">
+         <div id="mediaplayer1">Loading video player...</div>
+        </div>
+
         <section id="wedding">
           <h1>[% h.l('Wedding') %]</h1>
       
@@ -85,10 +90,17 @@
            <p>[% h.l('On May 7, 2011 we had our civil wedding ceremony in Edoardo\'s home town Cividale del Friuli.') %]</p>
            <p>[% h.l('The day was fantastic, with many surprises from family and friends.') %]</p>
            <p>[% h.l('The following video was made by Alessio and Anna, with the partcipation of other friends, they showed it during the reception and made us quite emotional.') %]</p>
-           <div id="mediaplayer-box">
-            <div id="mediaplayer">Loading video player...</div>
+           <div id="mediaplayer2-box">
+            <div id="mediaplayer2">Loading video player...</div>
            </div>
           </article>
+
+          <article>
+           <h2>[% h.l('September 30, 2011 - George') %]</h2>
+           <p>[% h.l('On September 30, 2011 we had the religious wedding ceremony followed by the reception in Margaux\'s home town George, in the beautiful Garden Route in South Africa.') %]</p>
+           <p>[% h.l('The spring day was absolutely fantastic, with both families together and many friends.') %]</p>
+          </article>
+
         </section>
 
         <section id="contacts">

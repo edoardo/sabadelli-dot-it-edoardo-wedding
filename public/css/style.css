@@ -118,7 +118,13 @@ div.white-paper {
     -webkit-box-shadow: 0 0 10px 4px #cc587b;
 }
 
-div#mediaplayer-box {
+div#mediaplayer1-box {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 716px;
+}
+
+div#mediaplayer2-box {
     margin: 0 auto;
     margin-top: 20px;
     width: 640px;

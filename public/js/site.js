@@ -8,7 +8,19 @@ $(function () {
     $('a[href*="margaux-datamatrix\.png"]').lightBox(lightbox_opt);
     $('a[href*="edoardo-datamatrix\.png"]').lightBox(lightbox_opt);
 
-    jwplayer('mediaplayer').setup({
+    jwplayer('mediaplayer1').setup({
+      flashplayer: '/edoardo/wedding/js/lib/jwplayer/player.swf',
+      file: '/edoardo/wedding/mp4/margaux_edoardo_2011-09-30.mp4',
+      height: 403,
+      width: 716,
+      skin: '/edoardo/wedding/skins/glow.zip',
+      screencolor: 'fbfbfb',
+      stretching: 'exactfit',
+      controlbar: 'none',
+      autostart: true
+    });
+
+    jwplayer('mediaplayer2').setup({
       flashplayer: '/edoardo/wedding/js/lib/jwplayer/player.swf',
       file: '/edoardo/wedding/mp4/margaux_edoardo_2011-05-07.mp4',
       height: 512,

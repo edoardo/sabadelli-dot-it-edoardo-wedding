@@ -26,6 +26,7 @@ $(function () {
       height: 512,
       width: 640,
       skin: '/edoardo/wedding/skins/glow.zip',
-      controlbar: 'over'
+      screencolor: 'fbfbfb',
+      controlbar: 'none'
     });
 });

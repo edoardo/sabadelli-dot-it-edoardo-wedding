@@ -128,9 +128,7 @@ div#mediaplayer2-box {
     margin: 0 auto;
     margin-top: 20px;
     width: 640px;
-    box-shadow: 0 0 4px 2px #483018;
-    -moz-box-shadow: 0 0 4px 2px #483018;
-    -webkit-box-shadow: 0 0 4px 2px #483018;
+    border: 1px solid #c9c9c9;
 }
 
 header, section, footer {

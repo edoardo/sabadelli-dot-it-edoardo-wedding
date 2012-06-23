@@ -10,6 +10,7 @@ $(function () {
 
     jwplayer('mediaplayer1').setup({
       flashplayer: '/edoardo/wedding/js/lib/jwplayer/player.swf',
+      provider: 'http',
       file: '/edoardo/wedding/mp4/margaux_edoardo_2011-09-30.mp4',
       height: 403,
       width: 716,
@@ -23,6 +24,7 @@ $(function () {
     jwplayer('mediaplayer2').setup({
       flashplayer: '/edoardo/wedding/js/lib/jwplayer/player.swf',
       file: '/edoardo/wedding/mp4/margaux_edoardo_2011-05-07.mp4',
+      provider: 'http',
       height: 512,
       width: 640,
       skin: '/edoardo/wedding/skins/glow.zip',

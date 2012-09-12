@@ -68,8 +68,8 @@ img::-moz-selection {background: transparent;}
 body {-webkit-tap-highlight-color: rgb(255,255,158);}
 
 /* colours
- chocolate: #483018
- pink:      #ff6e9a
+ chocolate: #2b0000
+ pink:      #fc8fc8
  paper:     #fbfbfb
  purple:    #572745
  grey:      #c9c9c9
@@ -89,7 +89,7 @@ px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
     padding: 54px 0 66px;
-    background: transparent url('/edoardo/wedding/css/media/483018-pattern.png') repeat;
+    background: transparent url('/edoardo/wedding/css/media/1A0E03-pattern.png') repeat;
     color: rgb(60,60,60);
     -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
@@ -102,11 +102,11 @@ ul {
 div.pink-paper {
     width: 896px;
     margin: auto;
-    background-color: #ff6e9a;
+    background-color: #fc8fc8;
     padding: 60px;
-    box-shadow: 0 0 10px 4px #483018;
-    -moz-box-shadow: 0 0 10px 4px #483018;
-    -webkit-box-shadow: 0 0 10px 4px #483018;
+    box-shadow: 0 0 10px 4px #2b0000;
+    -moz-box-shadow: 0 0 10px 4px #2b0000;
+    -webkit-box-shadow: 0 0 10px 4px #2b0000;
 }
 
 div.white-paper {
@@ -120,8 +120,11 @@ div.white-paper {
 
 div#mediaplayer1-box {
     margin: 0 auto;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     width: 716px;
+    box-shadow: 0 0 10px 4px #c9c9c9;
+    -moz-box-shadow: 0 0 10px 4px #c9c9c9;
+    -webkit-box-shadow: 0 0 10px 4px #c9c9c9;
 }
 
 div#mediaplayer2-box {
@@ -129,6 +132,9 @@ div#mediaplayer2-box {
     margin-top: 20px;
     width: 640px;
     border: 1px solid #c9c9c9;
+    box-shadow: 0 0 10px 4px #c9c9c9;
+    -moz-box-shadow: 0 0 10px 4px #c9c9c9;
+    -webkit-box-shadow: 0 0 10px 4px #c9c9c9;
 }
 
 header, section, footer {
@@ -201,9 +207,13 @@ article h2 {
 
 article iframe {
     margin-top: 20px;
+    margin-bottom: 10px;
     width: 100%;
     display: block;
     border: 1px solid #c9c9c9;
+    box-shadow: 0 0 10px 4px #c9c9c9;
+    -moz-box-shadow: 0 0 10px 4px #c9c9c9;
+    -webkit-box-shadow: 0 0 10px 4px #c9c9c9;
 }
 
 footer {
@@ -222,6 +232,24 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+div#slideshow {
+    position: relative;
+    width: 716px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+div#slideshow img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 696px;
+    padding: 15px;
+    box-shadow: 0 0 10px 4px #c9c9c9;
+    -moz-box-shadow: 0 0 10px 4px #c9c9c9;
+    -webkit-box-shadow: 0 0 10px 4px #c9c9c9;
 }
 
 /*      Tablet Layout: 768px.
@@ -340,6 +368,19 @@ px      68    160    252    344    436    */
         display: none;
     }
 
+    div#mediaplayer1-box {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 450px;
+    }
+
+    div#mediaplayer2-box {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 450px;
+        border: 1px solid #c9c9c9;
+    }
+
 }
 
 /*      Mobile Layout: 320px.
@@ -402,6 +443,17 @@ px      68    160    252    */
     #hcard-Margaux-Claire-Lamont a[href="/edoardo/wedding/png/margaux-datamatrix.png"],
     #hcard-Edoardo-Romeo-Sabadelli a[href="/edoardo/wedding/png/edoardo-datamatrix.png"] {
         display: none;
+    }
+
+    div#mediaplayer1-box {
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    div#mediaplayer2-box {
+        margin: 0 auto;
+        margin-top: 20px;
+        border: 1px solid #c9c9c9;
     }
 
 }

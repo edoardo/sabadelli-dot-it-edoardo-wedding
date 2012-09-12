@@ -104,6 +104,9 @@ q(Il 30 settembre 2011 abbiamo celebrato il matrimonio religioso seguito dal ric
 q(The spring day was absolutely fantastic, with both families together and many friends.) =>
 q(La giornata primaverile è stata fantastica, con le due famiglie insieme e tanti amici.),
 
+q(Following a selection of some photos taken by <a href="http://www.michellephotography.co.za/">Michelle</a>, our photographer.) =>
+q(Qui di seguito una selezione delle foto fatte da <a href="http://www.michellephotography.co.za/">Michelle</a>, la nostra fotografa.),
+
 # Contact us
 'Contact us' => 'Contatti',
 

@@ -31,4 +31,15 @@ $(function () {
       screencolor: 'fbfbfb',
       controlbar: 'none'
     });
+
+    // slideshow
+    $('#slideshow img:gt(0)').hide();
+    setInterval(function () {
+      $('#slideshow :first-child')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    }, 5000);
 });

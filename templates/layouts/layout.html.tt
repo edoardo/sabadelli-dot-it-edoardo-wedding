@@ -24,6 +24,7 @@
     <meta property="og:url" content="http://sabadelli.it/edoardo/wedding" />
     <meta property="og:title" content="Margaux and Edoardo's wedding" />
     <meta property="og:description" content="Margaux and Edoardo's wedding website. Information about the double event for our guests. Photos and videos for our families and friends to enjoy." />
+    <meta property="og:image" content="http://sabadelli.it/edoardo/wedding/jpg/slideshow/60.jpg" />
 
     <!-- Microformats -->
     <link rel="profile" href="http://microformats.org/profile/hcard" />

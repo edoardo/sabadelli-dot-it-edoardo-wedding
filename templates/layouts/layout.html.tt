@@ -19,6 +19,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
 
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://sabadelli.it/edoardo/wedding" />
+    <meta property="og:title" content="Margaux and Edoardo's wedding" />
+    <meta property="og:description" content="Margaux and Edoardo's wedding website. Information about the double event for our guests. Photos and videos for our families and friends to enjoy." />
+
     <!-- Microformats -->
     <link rel="profile" href="http://microformats.org/profile/hcard" />
     <link rel="profile" href="http://microformats.org/profile/hcalendar" />

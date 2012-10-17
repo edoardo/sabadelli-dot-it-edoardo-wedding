@@ -19,6 +19,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
 
+    <!-- stop robots from indexing photos -->
+    <meta name="robots" content="noimageindex" />
+
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://sabadelli.it/edoardo/wedding" />

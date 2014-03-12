@@ -57,20 +57,6 @@
           <p>[% h.l('In November Margaux moved north to Stjørdal for work, but even with more than 500 km separating us and countless flights across Norway, the story continued.') %]</p>
           <p>[% h.l('We got engaged in July 2010 and Margaux moved back to Oslo a few months later.') %]</p>
          </article>
-[%#
-         <article>
-          <h2 id="margaux">Margaux Claire Lamont</h2>
-          <p>Margaux is a lovely south african girl...</p>  
-         </article>
-
-         <article>
-          <h2 id="edoardo">Edoardo Romeo Sabadelli</h2>
-          <p>Edoardo is a handsome Italian guy, he loves surprises and sometimes surprises me in the most romantic ways.</p>
-          <p>He calles me his piccola &quot;little girl&quot; and will do absolutely anything for me - &quot;because it's you&quot;... awww <3.</p>
-          <p>He's rather shy thought but likes meeting new people and trying out new things.</p>
-          <p>He kisses like a dream and has really strong arms ;)</p>
-         </article>
-%]
         </section>
 
         <section id="friends-from-abroad">

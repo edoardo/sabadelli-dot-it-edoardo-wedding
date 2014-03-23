@@ -12,7 +12,7 @@ plugin 'i18n' => {namespace => 'ES::Web::SabadelliDotIt::Edoardo::I18N'};
 
 my $config = plugin 'json_config';
 
-app->secret($config->{secret});
+app->secrets([$config->{secret}]);
 
 app->defaults(
     app => {

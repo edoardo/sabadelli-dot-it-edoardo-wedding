@@ -10,7 +10,7 @@ plugin 'charset' => {charset => 'utf-8'};
 plugin 'tt_renderer';
 plugin 'I18N' => {namespace => 'ES::Web::SabadelliDotIt::Edoardo::I18N'};
 
-my $config = plugin 'json_config';
+my $config = plugin 'JSONConfig';
 
 app->secrets([$config->{secret}]);
 

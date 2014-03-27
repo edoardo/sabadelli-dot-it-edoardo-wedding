@@ -8,7 +8,7 @@ use lib 'lib';
 
 plugin 'charset' => {charset => 'utf-8'};
 plugin 'tt_renderer';
-plugin 'i18n' => {namespace => 'ES::Web::SabadelliDotIt::Edoardo::I18N'};
+plugin 'I18N' => {namespace => 'ES::Web::SabadelliDotIt::Edoardo::I18N'};
 
 my $config = plugin 'json_config';
 

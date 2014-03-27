@@ -12,8 +12,6 @@ plugin 'I18N' => {namespace => 'ES::Web::SabadelliDotIt::Edoardo::I18N'};
 
 my $config = plugin 'JSONConfig';
 
-app->secrets([$config->{secret}]);
-
 app->defaults(
     app => {
         mode => app->mode,

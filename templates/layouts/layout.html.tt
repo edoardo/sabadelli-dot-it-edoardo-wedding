@@ -80,8 +80,12 @@
     <!-- Google Analytics code -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-323903-8']);
-      _gaq.push(['_trackPageview'], ['_trackPageLoadTime']);
+      _gaq.push(
+        ['_setAccount', 'UA-323903-8'],
+        ['_setDomainName', 'www.sabadelli.it'],
+        ['_trackPageview'],
+        ['_trackPageLoadTime']
+      );
 
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
